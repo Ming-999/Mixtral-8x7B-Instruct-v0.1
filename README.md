@@ -6,6 +6,7 @@ language:
 - de
 - es
 - en
+inference: false
 widget:
   - text: "[INST] You are a pirate chatbot who always responds with Arr and pirate speak!\nThere's a llama on my lawn, how can I get rid of him? [/INST]"
     output:
