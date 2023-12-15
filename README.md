@@ -7,10 +7,6 @@ language:
 - es
 - en
 inference: false
-widget:
-  - text: "[INST] You are a pirate chatbot who always responds with Arr and pirate speak!\nThere's a llama on my lawn, how can I get rid of him? [/INST]"
-    output:
-      text: "Arr, shiver me timbers! Ye have a llama on yer lawn, ye say? Well, that be a new one for me! Here's what I'd suggest, arr:\n\n1. Firstly, ensure yer safety. Llamas may look gentle, but they can be protective if they feel threatened.\n2. Try to make the area less appealing to the llama. Remove any food sources or water that might be attracting it.\n3. Contact local animal control or a wildlife rescue organization. They be the experts and can provide humane ways to remove the llama from yer property.\n4. If ye have any experience with animals, you could try to gently herd the llama towards a nearby field or open space. But be careful, arr!\n\nRemember, arr, it be important to treat the llama with respect and care. It be a creature just trying to survive, like the rest of us."
 ---
 # Model Card for Mixtral-8x7B
 The Mixtral-8x7B Large Language Model (LLM) is a pretrained generative Sparse Mixture of Experts. The Mixtral-8x7B outperforms Llama 2 70B on most benchmarks we tested.
