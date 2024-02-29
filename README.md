@@ -8,7 +8,9 @@ language:
 - en
 inference: true
 widget:
-- messages:
+- parameters:
+    temperature: 0.5
+  messages:
   - role: user
     content: What is your favorite condiment?
 ---
