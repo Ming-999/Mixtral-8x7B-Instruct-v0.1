@@ -6,11 +6,11 @@ language:
 - de
 - es
 - en
-inference: true
-widget:
-- parameters:
+inference:
+  parameters:
     temperature: 0.5
-  messages:
+widget:
+- messages:
   - role: user
     content: What is your favorite condiment?
 ---
