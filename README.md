@@ -6,7 +6,11 @@ language:
 - de
 - es
 - en
-inference: false
+inference: true
+widget:
+- messages:
+  - role: user
+    content: What is your favorite condiment?
 ---
 # Model Card for Mixtral-8x7B
 The Mixtral-8x7B Large Language Model (LLM) is a pretrained generative Sparse Mixture of Experts. The Mixtral-8x7B outperforms Llama 2 70B on most benchmarks we tested.
